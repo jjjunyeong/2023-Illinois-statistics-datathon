@@ -9,6 +9,8 @@ Based on customer and macroeconomic data, forecast an accurate number of monthly
 
 ### dataset
 we are given training dataset, test dataset(forecast_starting_data.csv) and macro dataset which contains US economic context dataset. The training dataset is not uploaded to the github because of the file size.
+The datasets can be downloaded from link below:
+https://drive.google.com/drive/folders/1FCzv38y4IruhiVg60BmXW2Tf-hWfx1Uc?usp=share_link
 
 ### preprocess
 Each dataset is preprocessed accordingly with preprocess - python files. The python files create training_for_account_ver.csv, training_for_aggregated_ver.csv, test_for_account_ver.csv, and test_for_aggregated_ver.csv. Each dataset is training or test dataset for 2 different models(account ver and aggregated ver).
